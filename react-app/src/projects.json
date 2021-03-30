@@ -3,28 +3,40 @@
     "title": "Feedeorology",
     "deployed": "https://github.com/sclark417/Feederology",
     "github": "https://sclark417.github.io/Feederology/",
-    "image": "./assets/Feedeorology.png",
+    "image": "feedeorology",
+    "divClass": "feedeorology",
+    "imgClass": "feed",
+    "info": "Feedeorology was developed in collaboration with fellow cohort members to give recipe recommendation based on the current weather by utilizing calls to two different APIs.",
     "id": 1
   },
   {
     "title": "VaxSeen",
     "deployed": "https://quiet-badlands-37239.herokuapp.com/",
     "github": "https://github.com/mrivera0014/vaxSeen",
-    "image": "./assets/Vax-Seen.png",
+    "image": "vax",
+    "divClass": "vax-seen ",
+    "imgClass": "vax",
+    "info": "Vax-Seen was developed in conjunction with peers in order to provide    clinicians with a secure way to record patient data and track inoculation status.",
     "id": 2
   },
   {
     "title": "Random Password Generator",
     "deployed": "https://mac-attac.github.io/Random-Password-Generator/",
     "github": "https://github.com/mac-attac/Random-Password-Generator",
-    "image": "./assets/Password-generator.png",
+    "image": "password",
+    "divClass": "pass-generator",
+    "imgClass": "pass-gen",
+    "info": "The random password generator tool takes into account a world where password security is constantly in flux. The user is prompted on password length as well as the option to include or exclude capital or lowercase letter, numbers, and special characters. Once all user input options are in, a randomly        generated password is generated for use.",
     "id": 3
   },
   {
     "title": "Day Planner",
     "deployed": "https://mac-attac.github.io/Daily-Event-Planner/",
     "github": "https://github.com/mac-attac/Daily-Event-Planner",
-    "image": "./assets/Day-planner.png",
+    "image": "day",
+    "divClass": "day-planner",
+    "imgClass": "day-plan",
+    "info": "We lead hectic lives and sometimes when we have too many events to plan for, one can slip our mind. Avoid missing a thing with this daily event planner that can help organize your business day. Simply type in an event and text pinned to the corresponding time. Additionally the current date is displayed at the top, as well as a color coding system for past(gray), present(red), and future(green).",
     "id": 4
   }
 ]
