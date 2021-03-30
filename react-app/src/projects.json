@@ -1,8 +1,8 @@
 [
   {
     "title": "Feedeorology",
-    "deployed": "https://github.com/sclark417/Feederology",
-    "github": "https://sclark417.github.io/Feederology/",
+    "deployed": "https://sclark417.github.io/Feederology/",
+    "github": "https://github.com/sclark417/Feederology",
     "image": "feedeorology",
     "divClass": "feedeorology",
     "imgClass": "feed",
