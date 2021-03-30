@@ -42,9 +42,7 @@ function About() {
             </h1>
             <br />
             <h1>
-              <NavLink to="../assets/Resume for Stephen McNamara.docx">
-                Resume
-              </NavLink>
+              <NavLink to="../assets/resume.docx">Resume</NavLink>
             </h1>
           </div>
         </div>
