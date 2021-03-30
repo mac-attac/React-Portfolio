@@ -1,5 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
+import resume from "../assets/resume.docx";
 
 function About() {
   return (
@@ -42,7 +43,10 @@ function About() {
             </h1>
             <br />
             <h1>
-              <NavLink to="../assets/resume.docx">Resume</NavLink>
+              <a href={resume} target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
+              {/* <NavLink to={resume}>Resume</NavLink> */}
             </h1>
           </div>
         </div>

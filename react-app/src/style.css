@@ -86,4 +86,21 @@ p {
 
 .navBarLink {
   margin: 10px;
+  color: navy;
+  font-family: "Fjalla One", sans-serif;
+  line-height: 150%;
+  text-decoration: none;
+}
+.navBarLinkName {
+  margin: 10px;
+  width: 250px;
+  color: navy;
+  font-family: "Fjalla One", sans-serif;
+  line-height: 150%;
+  text-decoration: none;
+  font-size: 20px;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
 }

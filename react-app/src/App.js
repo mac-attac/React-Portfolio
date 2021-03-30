@@ -9,14 +9,12 @@ import Portfolio from "./pages/Portfolio";
 function App() {
   return (
     <Router>
-      <div className="container">
-        <Navbar />
-        <Route exact path="/" component={About} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Footer />
-      </div>
+      <Navbar />
+      <Route exact path="/" component={About} />
+      <Route exact path="/about" component={About} />
+      <Route exact path="/contact" component={Contact} />
+      <Route exact path="/portfolio" component={Portfolio} />
+      <Footer />
     </Router>
   );
 }
