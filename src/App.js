@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./pages/About";
@@ -8,7 +8,11 @@ import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
-    <Router>
+    <Router
+      basename={optionalString}
+      getUserConfirmation={optionalFunc}
+      hashType={optionalString}
+    >
       <Navbar />
       <Route exact path="/" component={About} />
       <Route exact path="/about" component={About} />
