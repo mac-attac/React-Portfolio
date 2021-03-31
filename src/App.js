@@ -8,11 +8,7 @@ import Portfolio from "./pages/Portfolio";
 
 function App() {
   return (
-    <Router
-      basename={optionalString}
-      getUserConfirmation={optionalFunc}
-      hashType={optionalString}
-    >
+    <Router>
       <Navbar />
       <Route exact path="/" component={About} />
       <Route exact path="/about" component={About} />
